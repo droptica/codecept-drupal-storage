@@ -1,0 +1,27 @@
+{
+    "name": "droptica/codeception-drupal-storage",
+    "description": "Module that allows for storgin variables and nodes during whole test suite.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Droptica",
+            "email": "info@droptica.com"
+        }
+    ],
+    "keywords": ["codeception", "test", "testing", "drupal"],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/droptica/codeception-drupal-bootstrap"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "2.*",
+        "droptica/codeception-drupal-bootstrap": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\": "src"
+        }
+    }
+}
